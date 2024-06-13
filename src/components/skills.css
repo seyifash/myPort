@@ -19,7 +19,7 @@
 .skills .skill-set .desc {
     max-width: 70%;
     border-radius: 7px;
-    box-shadow: 5px 5px 8px 5px #3d3c3c;
+    box-shadow: 5px 5px 8px 5px #0c0c0c;
     font-size: 1.1rem;
     font-weight: 200;
     line-height: 30px;
@@ -75,5 +75,24 @@
     }
     .skills .lang-icon .vert-lang .lang-2 {
         width: 50px;
+    }
+}
+@media screen and (max-width: 477px) {
+    .skills .skill-set .desc {
+        max-width: 100%;
+        box-shadow: 5px 5px 8px 5px #0c0c0c;
+        font-size: 0.8rem;
+        padding: 10px 10px;
+    }
+    .skills .lang-icon .vert-lang {
+        bottom: 130%;
+        right: -30%;
+    }
+    .skills .lang-icon .vert-lang .lang-2 {
+        width: 40px;
+    }
+    .skills .lang-icon .lang-1 {
+        width: 80px;
+        margin-right: 20px;
     }
 }

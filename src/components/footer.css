@@ -62,13 +62,13 @@ p {
         margin-bottom: 20px;
     }
     .left, .right {
-        padding: 1rem;
+        padding: 0.85rem;
     }
     h4 {
-        font-size: 16px;
+        font-size: 0.85rem;
     }
     p {
-        font-size: 16px;
+        font-size: 0.85rem;
     }
     .location p {
         line-height: 20px;

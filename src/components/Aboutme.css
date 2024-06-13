@@ -61,7 +61,7 @@
     font-size: 25px;
     padding: 20px 30px 30px 30px;
     border-radius: 10px;
-    box-shadow: 5px 5px 8px 5px #1a1a1a;
+    box-shadow: 5px 5px 8px 5px #0c0c0c;
     line-height: 40px;
     text-align: center;
 }
@@ -89,14 +89,20 @@
         margin-bottom: 20px;
     }
     .hero1 .content1 .bit-more::after {
-        top: 32%;    
-        left: 40%;
+        top: 26%;    
+        left: 43%;
     }
     .btn-contain {
         display: initial;
     }
-}    
-
+} 
+  
+@media screen and (max-width: 830px) {
+    .hero1 .content1 .bit-more::after {
+        top: 26%;
+        left: 40%;
+    }
+}
 @media screen and (max-width: 640px) {
     .hero1 {
         height: 800px;
@@ -130,6 +136,54 @@
     }
     .hero1 .content1 .more {
         margin-right: 15px;
+    }
+    .hero1 .content1 .bit-more::after {
+        top: 31%;
+        left: 36%;
+    }
+    
+}
+@media screen and (max-width: 477px) {
+    .hero1 {
+        height: 600px;
+    }
+    .hero1 .profile-Img {
+        width: 300px;
+        height: 600px;
+        border-top-right-radius: 300px;
+        border-bottom-right-radius: 300px;
+        left: 0;
+    }
+    .hero1 .content1 {
+        max-width: 400px;
+        margin-bottom: 200px;
+    }
+    .hero1 .content1 .bit-more {
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+    .hero1 .content1 .bit-more::after {
+        top: 18%;    
+        left: 16%;
+        width: 100px;
+    }
+    .hero1 .content1 .more {
+        font-size: 0.7rem;
+        padding: 2px 5px 5px 5px;
+        border-radius: 10px;
+        line-height: 20px;
+    }
+    .hero1 .content1 .more {
+        margin-right: 15px;
+    }
+   
+}
+
+@media screen and (max-width: 430px) {
+    .hero1 .content1 .bit-more::after {
+        top: 22%;
+        left: 39%;
+        width: 100px;
     }
 }
 @media screen and (max-width: 390px) {
@@ -167,37 +221,26 @@
     }
     
 }
-@media screen and (max-width: 477px) {
-    .hero1 {
-        height: 600px;
-    }
-    .hero1 .profile-Img {
-        width: 300px;
-        height: 600px;
-        border-top-right-radius: 300px;
-        border-bottom-right-radius: 300px;
-        left: 0;
-    }
-    .hero1 .content1 {
-        max-width: 400px;
-        margin-bottom: 200px;
-    }
-    .hero1 .content1 .bit-more {
-        font-size: 1rem;
-        padding: 10px 10px;
-    }
+@media screen and (max-width: 400px) {
     .hero1 .content1 .bit-more::after {
-        top: 18%;    
-        left: 16%;
-        width: 100px;
+        top: 21%;
+        left: 39%;
     }
-    .hero1 .content1 .more {
-        font-size: 0.7rem;
-        padding: 2px 5px 5px 5px;
-        border-radius: 10px;
-        line-height: 20px;
+    .btn {
+        padding: 10px 25px;
+        font-size: 12px;
+        font-weight: 700;
     }
-    .hero1 .content1 .more {
-        margin-right: 15px;
+
+}
+@media screen and (max-width: 380px) {
+    .hero1 .content1 .bit-more::after {
+        top: 20%;
+        left: 39%;
+    }
+    .btn {
+        padding: 10px 25px;
+        font-size: 12px;
+        font-weight: 700;
     }
 }

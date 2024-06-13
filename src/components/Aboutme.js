@@ -3,7 +3,7 @@ import cvPdf from "./oluwaseyiCv.pdf";
 
 
 const Aboutme = () => {
-    return <div className="hero1">
+    return (<div className="hero1">
     <div className="profile-Img">
     </div>
     <div className="content1">
@@ -20,5 +20,6 @@ const Aboutme = () => {
         </div>
     </div>
     </div>
+    )
 }
 export default Aboutme;
