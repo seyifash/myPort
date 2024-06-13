@@ -14,14 +14,14 @@ const Home = () => {
             <h4>I build things for the web</h4>
             <div className="socials">
                 <div className="linked">
-                    <Link to="http://linkedin.com/in/oluwaseyi-fasugbe-61a0a4271" ><i class='bx bxl-linkedin'></i></Link>
+                    <Link to="http://linkedin.com/in/oluwaseyi-fasugbe-61a0a4271" ><i className='bx bxl-linkedin'></i></Link>
                 </div>
                 <div className="insta">
-                    <Link to="https://www.instagram.com/oluwatobi.fash?igsh=MXFqbGdiZnNmYnBhcg%3D%3D&utm_source=qr"><i class='bx bxl-instagram'></i></Link>
+                    <Link to="https://www.instagram.com/oluwatobi.fash?igsh=MXFqbGdiZnNmYnBhcg%3D%3D&utm_source=qr"><i className='bx bxl-instagram'></i></Link>
                 </div>
                 <div className="git">
                     <Link to="https://github.com/seyifash">
-                        <i class='bx bxl-github'></i>
+                        <i className='bx bxl-github'></i>
                     </Link>
                 </div>
             </div>

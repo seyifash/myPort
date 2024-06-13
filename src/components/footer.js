@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer-sec">
                 <div className="left">
                     <div className="location">
-                        <i class='bx bxs-home' style={{color: "#FFF", 
+                        <i className='bx bxs-home' style={{color: "#FFF", 
                         marginRight: "2rem", fontSize: "20px" }}></i>
                         <div>
                             <p>21 Udeh street.</p>
@@ -17,7 +17,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="Phone">
-                        <h4><i class='bx bxs-phone bx-flip-horizontal' style={{color: "#FFF", 
+                        <h4><i className='bx bxs-phone bx-flip-horizontal' style={{color: "#FFF", 
                         marginRight: "2rem", fontSize: "20px" }}></i>
                         07043604599
                         </h4>

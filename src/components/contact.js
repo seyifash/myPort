@@ -19,15 +19,15 @@ const Contactus = () => {
             <div className="contact-address">
                 <div className="Ema-git">
                     <div className="ema-git-div" onClick={() => copyToClipboard('fasugbeoluwaseyi@gmail.com')}>
-                    <i class='bx bx-envelope'></i>
+                    <i className='bx bx-envelope'></i>
                     </div>
-                    <span e-sp>fasugbeoluwaseyi@gmail.com</span>
+                    <span className="e-sp">fasugbeoluwaseyi@gmail.com</span>
                 </div>
                 <div className="Ema-git">
                     <div className="ema-git-div" onClick={() => copyToClipboard('https://github.com/seyifash')}>
-                    <i class='bx bxl-github'></i> 
+                    <i className='bx bxl-github'></i> 
                     </div>
-                    <span g-sp>https://github.com/seyifash"</span>
+                    <span className="g-sp">https://github.com/seyifash"</span>
                 </div>
             </div>
             <div className="form-sect">
