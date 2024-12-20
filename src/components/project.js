@@ -25,7 +25,7 @@ const Projects = () => {
                 <p>Contributed as the frontend developer for the “Learners” project, a web-based application designed to streamline communication between teachers and students
                 </p>
                 <div className="code">
-                    <Link to="#">View Project</Link>
+                    <Link to="https://learner-one.vercel.app">View Project</Link>
                     <Link to="https://github.com/seyifash/Learner.git">Source Code</Link>
                 </div>
             </div>
