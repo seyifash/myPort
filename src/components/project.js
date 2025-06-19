@@ -32,7 +32,7 @@ const Projects = () => {
                 <p>An affiliate pet product website built with Next.js and Tailwind CSS. Users can browse and compare pet food and accessories; clicking a product redirects them to the actual affiliate store to make a purchase. Includes an admin dashboard for uploading products and blogs, managing content (CRUD), and updating profiles.
                 </p>
                 <div class="code">
-                    <Link to="">View Project</Link>
+                    <Link to="https://petpulse-phi.vercel.app/">View Project</Link>
                     <Link to="https://github.com/seyifash/petpulse.git">Source Code</Link>
                 </div>
             </div>
