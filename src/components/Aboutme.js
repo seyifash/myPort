@@ -1,5 +1,5 @@
 import "./Aboutme.css";
-import cvPdf from "./oluwaseyi_frontendCv.pdf";
+import cvPdf from "./Fasugbe_Oluwaseyi_CV_Frontend.pdf";
 
 
 const Aboutme = () => {
