@@ -15,10 +15,14 @@ const Skill = () => {
                     My Skills
             </h2>
             <div className="skill-set">
-                <p className="desc">Frontend & Backend Developer proficient in JavaScript,
-                    HTML, CSS, React, Node.js, TypeScript, Python, Flask, and SQL Alchemy. 
-                    Proficient in database management with MySQL and skilled in utilizing tools 
-                    such as VS Code, Unix, Git, Docker, and more to develop and deploy robust web applications.
+                <p className="desc">
+                    Frontend Developer with 3 years of experience building responsive, 
+                    user-friendly web applications. Proficient in JavaScript (ES6+), 
+                    React, Next.js, HTML, CSS, and TailwindCSS. Skilled in state 
+                    management with Redux, Zustand, and Context API, and experienced 
+                    in integrating RESTful APIs. Adept at creating performant, 
+                    accessible, and visually appealing interfaces, with strong 
+                    knowledge of Git, VS Code, and modern development workflows.
                 </p>
                 <div className="lang-icon">
                     <div className="lang-1">
