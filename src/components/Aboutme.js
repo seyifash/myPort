@@ -10,10 +10,12 @@ const Aboutme = () => {
         <span className="bit-more">
             A bit more about me
         </span>
-        <span className="more">Enthusiastic front-end developer proficient in HTML, CSS, JavaScript, and React framework, 
-            with a passion for creating engaging user interfaces and seamless user experiences. 
-            Skilled in translating design mockups into interactive web applications using React components, 
-            with a keen eye for detail and a commitment to clean, efficient code.
+        <span className="more">
+            I’m a Frontend Developer with 3 years of experience creating responsive 
+            and user-friendly web applications. I enjoy turning ideas into interactive, 
+            visually engaging products that provide seamless user experiences. With a 
+            strong focus on clean code and attention to detail, I’m passionate about 
+            building interfaces that are not only functional but also enjoyable to use.
         </span>
         <div className="btn-contain">
             <a href={cvPdf} download className="btn">Download cv</a> 
