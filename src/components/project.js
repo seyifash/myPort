@@ -9,9 +9,11 @@ const Projects = () => {
             <div className="projects-contain">
             <h2>Recent Projects</h2>
             <div className="projects-descrip">
-                <h4>Learners</h4>
-                <p>Contributed as the frontend developer for the “Learners” project, a web-based application designed to streamline communication between teachers and students
+                <h4>Learners – Online Exam Platform</h4>
+                <p>
+                    Worked as the Frontend Developer, building an educational platform that enables teachers to create and manage timed tests/exams remotely while students take them using unique access codes. Built with React, Vite, and CSS, using Redux for predictable state management. Integrated API calls for exam setup, submissions, and scoring. Delivered features such as teacher dashboards, instant scoring with results display, community question bank reuse, and real-time exam monitoring.
                 </p>
+                    
                 <div className="code">
                     <Link to="https://app.buildeapp.org/">View Project</Link>
                     <Link to="https://github.com/seyifash/Learner.git">Source Code</Link>
@@ -19,10 +21,7 @@ const Projects = () => {
             </div>
             <div className="projects-descrip">
                 <h4>Shoppers – Multi-Vendor E-Commerce Platform</h4>
-                <p>A scalable e-commerce platform where vendors can register, add products, 
-        and track orders while customers browse and purchase seamlessly. 
-        Built with React (Vite) and CSS, with Zustand for state management. Integrated Paystack multisplit payments, 
-        two-factor authentication, vendor dashboards, dark/light mode, and real-time notifications for a smooth shopping experience.
+                <p>Worked as the Frontend Developer, building vendor and customer interfaces with React (Vite) and CSS. Integrated Paystack multisplit payments, 2FA authentication, dark/light mode, and real-time notifications. Managed application state with Zustand while consuming backend APIs for products, orders, and vendor operations.
                 </p>
                 <div class="code">
                     <Link to="https://shopit.buildeapp.org/">View Project</Link>
